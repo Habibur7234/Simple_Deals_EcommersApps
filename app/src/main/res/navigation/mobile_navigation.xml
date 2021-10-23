@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_restaurant">
+
+    <fragment
+        android:id="@+id/nav_restaurant"
+        android:name="com.touchnget.touchnget.ui.restaurant.RestaurantFragment"
+        android:label="@string/menu_restaurant"
+        tools:layout="@layout/fragment_restaurant">
+
+        <action android:id="@+id/action_nav_restaurant_to_nav_home"
+            app:destination="@+id/nav_home"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.touchnget.touchnget.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="restaurant"
+            app:argType="string"
+            android:defaultValue="empty"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.touchnget.touchnget.ui.menu.MenuFragment"
+        android:label="@string/menu_category"
+        tools:layout="@layout/fragment_menu" />
+
+    <fragment
+        android:id="@+id/nav_food_list"
+        android:name="com.touchnget.touchnget.ui.foodlist.FoodListFragment"
+        android:label="@string/menu_food_list"
+        tools:layout="@layout/fragment_food_list" />
+
+    <fragment
+        android:id="@+id/nav_food_detail"
+        android:name="com.touchnget.touchnget.ui.fooddetails.FoodDetailFragment"
+        android:label="Food Detail"
+        tools:layout="@layout/food_detail_fragment" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.touchnget.touchnget.ui.cart.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/cart_fragment" />
+
+    <fragment
+        android:id="@+id/nav_view_orders"
+        android:name="com.touchnget.touchnget.ui.view_orders.ViewOrdersFragment"
+        android:label="@string/menu_view_orders"
+        tools:layout="@layout/view_orders_fragment" />
+
+
+</navigation>

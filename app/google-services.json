@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "923166497267",
+    "firebase_url": "https://touch-n-get-37c3b.firebaseio.com",
+    "project_id": "touch-n-get-37c3b",
+    "storage_bucket": "touch-n-get-37c3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923166497267:android:261fb3de2ad387f971da86",
+        "android_client_info": {
+          "package_name": "com.touchnget.touchnget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923166497267-8ei4rm4f5tn3k9lgqh3prkcs9up54idt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.touchnget.touchnget",
+            "certificate_hash": "356f12f11d8a9769a9530904b003c952877de789"
+          }
+        },
+        {
+          "client_id": "923166497267-ortpe93mqtliqjejbd78msv6p8fm2vmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrtp8qrFEuvig09192u8mSdYLDIAwYenQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923166497267-ortpe93mqtliqjejbd78msv6p8fm2vmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8F7422</color>
+    <color name="colorPrimaryDark">#241050</color>
+    <color name="colorAccent">#A16A18</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="overlay_color">#55333639</color>
+    <color name="border_color">#AA333639</color>
+    <color name="dialog_header_color">#c5c5c5</color>
+    <color name="dialog_text_color">#464646</color>
+    <color name="numberButton">#C18630</color>
+    <color name="food_detail_text_color">#000000</color>
+</resources>
